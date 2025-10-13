@@ -7,7 +7,7 @@ import { GiClick } from "react-icons/gi";
 import { colors } from "../styles/colors";
 
 const fetchProjects = async () => {
-  const response = await fetch("/public/projects.json");
+  const response = await fetch("/projects.json");
   if (!response.ok) throw new Error("Failed to fetch projects");
   return response.json();
 };
