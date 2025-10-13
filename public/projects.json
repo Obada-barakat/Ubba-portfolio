@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Card Memory Game (React)",
-    "image": "../src/assets/card-game.webp",
+    "image": "/src/assets/card-game.webp",
     "description": "A fun and interactive memory game built with React, where players flip cards to find matching pairs. It dynamically tracks game state, counts moves, and resets seamlessly for new rounds — showcasing state management and conditional rendering in action.",
     "techStack": ["React", "Framer Motion", "CSS3", "HTML5"],
     "liveLink": "https://react-card-memory-game-one.vercel.app/",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "React Todo App",
-    "image": "../src/assets/todo-app.webp",
+    "image": "/src/assets/todo-app.webp",
     "description": "A responsive and minimal to-do application built with React. It allows users to add, edit, mark as completed, and delete tasks, all while maintaining real-time UI updates through React state management and hooks.",
     "techStack": ["React", "JavaScript (ES6+)", "CSS3", "HTML5"],
     "liveLink": "https://react-todo-app-nine-murex.vercel.app/",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Breezo",
-    "image": "../src/assets/breezo.webp",
+    "image": "/src/assets/breezo.webp",
     "description": "A simple and responsive weather application built with vanilla JavaScript. It fetches real-time weather data from an external API and displays temperature, conditions, and location details in a clean, user-friendly interface.",
     "techStack": ["JavaScript (ES6+)", "HTML5", "CSS3", "OpenWeather API"],
     "liveLink": "https://obada-barakat.github.io/Breezo/",
