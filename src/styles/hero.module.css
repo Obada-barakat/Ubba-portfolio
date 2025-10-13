@@ -1,0 +1,89 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 4rem 2rem;
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+.heroText {
+  flex: 1;
+  color: var(--white);
+}
+
+.ownerName {
+  color: var(--orange);
+  text-transform: uppercase;
+}
+
+.heroImg {
+  width: 100%;
+  max-width: 400px;
+}
+
+.heroImg img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.subText {
+  margin: 0 0 20px;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btns button {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btns button:first-child {
+  background-color: var(--vivid-blue);
+}
+
+.btns button:last-child {
+  background-color: var(--orange);
+}
+
+@media (min-width: 760px) {
+  .hero {
+    flex-direction: column;
+    padding: 3rem 4rem;
+    text-align: center;
+  }
+  .btns {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 8rem;
+    font-size: 1.6rem;
+  }
+  .btns {
+    justify-content: space-evenly;
+  }
+
+  .btns button {
+    padding: 14px;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+}
