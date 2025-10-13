@@ -1,5 +1,5 @@
 import styles from "../styles/hero.module.css";
-import heroImg from "../assets/hero-illustration.webp";
+import heroImg from "/public/assets/hero-illustration.webp";
 import { motion } from "framer-motion";
 import { colors } from "../styles/colors";
 
