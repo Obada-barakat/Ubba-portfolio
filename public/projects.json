@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Card Memory Game (React)",
-    "image": "./src/assets/card-game.webp",
+    "image": "/src/assets/card-game.webp",
     "description": "A fun and interactive memory game built with React, where players flip cards to find matching pairs. It dynamically tracks game state, counts moves, and resets seamlessly for new rounds — showcasing state management and conditional rendering in action.",
     "techStack": ["React", "Framer Motion", "CSS3", "HTML5"],
     "liveLink": "https://react-card-memory-game-one.vercel.app/",
