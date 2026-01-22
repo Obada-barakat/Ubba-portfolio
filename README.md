@@ -8,7 +8,6 @@ The site features smooth animations, responsive layouts, and dynamic project ren
 ## 🚀 Live Demo
 
 🔗 [View Portfolio](https://obada-portfolio.vercel.app)  
-*(Replace the link once deployed)*
 
 ---
 
