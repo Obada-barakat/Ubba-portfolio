@@ -10,6 +10,24 @@
   },
   {
     "id": 2,
+    "title": "Social media Scheduler",
+    "image": "/public/social-media-scheduler.webp",
+    "description": "An automated workflow built with n8n that schedules and publishes social media content efficiently.",
+    "techStack": ["N8N", "APIs", "Webhoods"],
+    "liveLink": "",
+    "githubLink": "https://github.com/Obada-barakat/social-media-scheduler"
+  },
+  {
+    "id": 3,
+    "title": "Pizzeria Landing Page",
+    "image": "/public/pizzeria.webp",
+    "description": "A modern, responsive landing page for a pizzeria restaurant built with Bootstrap 5. Features stunning animations, glassmorphism design, and an intuitive user experience.",
+    "techStack": ["Bootstrap5", "CSS", "HTML"],
+    "liveLink": "https://obada-barakat.github.io/Pizzeria-landing-page/",
+    "githubLink": "https://github.com/Obada-barakat/Pizzeria-landing-page"
+  },
+  {
+    "id": 4,
     "title": "React Todo App",
     "image": "/todo-app.webp",
     "description": "A responsive and minimal to-do application built with React. It allows users to add, edit, mark as completed, and delete tasks, all while maintaining real-time UI updates through React state management and hooks.",
@@ -18,12 +36,20 @@
     "githubLink": "https://github.com/Obada-barakat/React-todo-app"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Breezo",
     "image": "/breezo.webp",
     "description": "A simple and responsive weather application built with vanilla JavaScript. It fetches real-time weather data from an external API and displays temperature, conditions, and location details in a clean, user-friendly interface.",
     "techStack": ["JavaScript (ES6+)", "HTML5", "CSS3", "OpenWeather API"],
     "liveLink": "https://obada-barakat.github.io/Breezo/",
     "githubLink": "https://github.com/Obada-barakat/Breezo"
+  },
+  {
+    "id": 6,
+    "title": "Job Application Follow-Up Automation",
+    "image": "/public/jobPilot.webp",
+    "description": "An automation workflow that captures job applications, stores them in Google Sheets, and sends an automatic follow-up reminder after 7 days.",
+    "techStack": ["N8N", "Google Sheets", "Web Forms", "GitHub"],
+    "githubLink": "https://github.com/Obada-barakat/ApplicationPilot"
   }
 ]

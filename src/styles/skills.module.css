@@ -38,7 +38,7 @@
 .card {
   width: 50%;
   max-width: 350px;
-  height: 300px;
+  height: auto;
   border: 2px solid var(--orange);
   border-radius: 12px;
   color: var(--white);

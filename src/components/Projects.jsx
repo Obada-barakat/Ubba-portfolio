@@ -83,26 +83,31 @@ function Card({ allProjects }) {
             <img src={selected.image} alt={selected.title} />
             <h3>{selected.title}</h3>
             <div className={styles.projectBtns}>
-              <a
-                onClick={(e) => {
-                  e.stopPropagation();
-                }}
-                href={selected.liveLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live <FaLink />
-              </a>
-              <a
-                onClick={(e) => {
-                  e.stopPropagation();
-                }}
-                href={selected.githubLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub <FaGithub />
-              </a>
+              {selected.liveLink && (
+                <a
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                  href={selected.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live <FaLink />
+                </a>
+              )}
+
+              {selected.githubLink && (
+                <a
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                  href={selected.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub <FaGithub />
+                </a>
+              )}
             </div>
           </motion.div>
         </motion.div>

@@ -1,6 +1,18 @@
 {
-  "frontend": ["HTML5", "CSS3", "JavaScript (ES6)"],
-  "react": ["React.js", "Framer Motion", "TanStack Query"],
-  "design": ["CSS Modules", "Bootstrap", "Responsive Design"],
-  "tools": ["Git & GitHub", "VS Code", "Chrome DevTools"]
+  "frontend": [
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "Git&GitHub",
+    "JavaScript (ES6)",
+    "React.js"
+  ],
+  "UI & Experience": ["CSS Modules", "Bootstrap", "Responsive Design"],
+  "Automation & Integration": [
+    "N8N (workflow automation)",
+    "API Integration (REST)",
+    "Webhooks",
+    "Google Sheets automation"
+  ],
+  "Data & Backend basics": ["JSON", "HTTP Requests", "Basic Node.js"]
 }

@@ -29,7 +29,10 @@ export default function Hero() {
             I am <span className={styles.ownerName}>Ubba</span>.{" "}
           </motion.span>
           <motion.span variants={draw} custom={1.75}>
-            I build fast, accessible UIs with React.{" "}
+            I build websites and automate workflows,{" "}
+          </motion.span>
+          <motion.span variants={draw} custom={1.85}>
+            for individuals and small businesses.{" "}
           </motion.span>
         </h2>
       </motion.div>
@@ -57,8 +60,8 @@ export default function Hero() {
         variants={draw}
         custom={3}
       >
-        I build pixel-perfect, responsive interfaces and small apps that ship
-        quickly
+        I help businesses save time and grow online through clean websites and
+        smart automation.
       </motion.span>
       <motion.div
         className={styles.btns}

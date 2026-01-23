@@ -116,7 +116,9 @@
 }
 
 .expandedCard img {
+  object-fit: fill;
   width: auto;
+  max-width: 350px;
   height: auto;
   max-height: 350px;
 }
