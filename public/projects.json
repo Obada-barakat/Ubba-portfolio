@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "Sales Analytics Dashboard",
+    "image": "./Dashboard.webp",
+    "description": "A modern, responsive sales analytics dashboard built with React, featuring real-time data visualization, interactive charts, and a sleek dark theme with purple gradients.",
+    "techStack": ["React", "REST API", "Recharts", "CSS3"],
+    "liveLink": "https://sales-dashboard-beige.vercel.app/",
+    "githubLink": "https://github.com/Obada-barakat/Sales-Dashboard"
+  },
+  {
+    "id": 2,
     "title": "Card Memory Game (React)",
     "image": "/card-game.webp",
     "description": "A fun and interactive memory game built with React, where players flip cards to find matching pairs. It dynamically tracks game state, counts moves, and resets seamlessly for new rounds — showcasing state management and conditional rendering in action.",
@@ -9,31 +18,22 @@
     "githubLink": "https://github.com/Obada-barakat/React-Card-Memory-Game"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Social media Scheduler",
-    "image": "/public/social-media-scheduler.webp",
+    "image": "/public/social-meida-scheduler.webp",
     "description": "An automated workflow built with n8n that schedules and publishes social media content efficiently.",
     "techStack": ["N8N", "APIs", "Webhoods"],
     "liveLink": "",
     "githubLink": "https://github.com/Obada-barakat/social-media-scheduler"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Pizzeria Landing Page",
     "image": "/public/pizzeria.webp",
     "description": "A modern, responsive landing page for a pizzeria restaurant built with Bootstrap 5. Features stunning animations, glassmorphism design, and an intuitive user experience.",
     "techStack": ["Bootstrap5", "CSS", "HTML"],
     "liveLink": "https://obada-barakat.github.io/Pizzeria-landing-page/",
     "githubLink": "https://github.com/Obada-barakat/Pizzeria-landing-page"
-  },
-  {
-    "id": 4,
-    "title": "React Todo App",
-    "image": "/todo-app.webp",
-    "description": "A responsive and minimal to-do application built with React. It allows users to add, edit, mark as completed, and delete tasks, all while maintaining real-time UI updates through React state management and hooks.",
-    "techStack": ["React", "JavaScript (ES6+)", "CSS3", "HTML5"],
-    "liveLink": "https://react-todo-app-nine-murex.vercel.app/",
-    "githubLink": "https://github.com/Obada-barakat/React-todo-app"
   },
   {
     "id": 5,
