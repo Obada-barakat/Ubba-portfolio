@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Social media Scheduler",
-    "image": "/public/social-meida-scheduler.webp",
+    "image": "./social-meida-scheduler.webp",
     "description": "An automated workflow built with n8n that schedules and publishes social media content efficiently.",
     "techStack": ["N8N", "APIs", "Webhoods"],
     "liveLink": "",
