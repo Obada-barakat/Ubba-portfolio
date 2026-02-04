@@ -10,12 +10,12 @@
   },
   {
     "id": 2,
-    "title": "Card Memory Game (React)",
-    "image": "/card-game.webp",
-    "description": "A fun and interactive memory game built with React, where players flip cards to find matching pairs. It dynamically tracks game state, counts moves, and resets seamlessly for new rounds — showcasing state management and conditional rendering in action.",
-    "techStack": ["React", "Framer Motion", "CSS3", "HTML5"],
-    "liveLink": "https://react-card-memory-game-one.vercel.app/",
-    "githubLink": "https://github.com/Obada-barakat/React-Card-Memory-Game"
+    "title": "Lead Management System",
+    "image": "/leads-managment.webp",
+    "description": "A full-stack lead capture and management platform with automated follow-ups, built with React, n8n, and Google Sheets.",
+    "techStack": ["React", "Tanstack", "Tailwind", "n8n", "google sheets"],
+    "liveLink": "https://lead-capture-19iq.vercel.app/",
+    "githubLink": "https://github.com/Obada-barakat/Lead-capture"
   },
   {
     "id": 3,
